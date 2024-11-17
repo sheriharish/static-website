@@ -1,7 +1,7 @@
 # Deploying of static website using azure container instance (ACI)
 
 ## Project overview:
-Deploying a Static Website Using Azure Container Instances (ACI)
+Deploying a Static Website Using Azure Container Instances (ACI) and Build the image using Docker
 ## Project Goal:
 To efficiently and cost-effectively deploy a static website to Azure using Azure Container Instances (ACI), leveraging its server less nature and rapid deployment capabilities.
 ## Project Scope:
@@ -28,7 +28,7 @@ Ex: az group create - -name RG1 - -location centralindia <br>
 Here we used the ARM template to create the resource ACR (azure container registry).<br>
 ![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/2.png)
 Deploy this ARM template in the resource group of RG1 by using the below command from .Json file path.<br>
-[az deployment group create - -resource-group RG1 - -template-file azure-container-registry.json] <br>
+[az deployment group create - -resource-group RG1 - -template-file azure-container-registry.json] <br><br>
 ![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/3.png)<br><br>
 Graphical user interface or portal view:<br>
 ![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/4.png)<br><br>
