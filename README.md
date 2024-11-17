@@ -14,4 +14,9 @@ Deploying a Static Website Using Azure Container Instances (ACI) and build the i
 7.	Dokerfile: it is used to define the environment for your static website (nginx).
 8.	Vim editor: A powerful, highly customizable text editor used to configure Dockerfile.
 9.	GIT: Cloned the website from GitHub onto the Ubuntu VMs using a custom script.
+ ## Project Approach:
+1.	Create the resource group using custom azure cli commands:
+[az group create - -name <resource-group-name> - -location <location-name>]
+Ex: az group create - -name RG1 - -location centralindia
+
 
