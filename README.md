@@ -2,7 +2,7 @@
 ## Project Overview: 
 Deploying a Static Website Using Azure Container Instances (ACI) and build the image using Docker.
 ## Project Scope:
-•	Static Website: A collection of HTML and CSS files that don't require server-side processing.
+•	Static Website: A collection of HTML and CSS files that don't require server-side processing.<br>
 •	Azure Container Instance (ACI): A server less container service that allows you to run containers without managing virtual machines.
 ## Technologies and Azure Services Used:
 1.	Azure CLI: Used to create the resource group, Ubuntu VM, ACR (azure container registry) and ACI (azure container instance).
