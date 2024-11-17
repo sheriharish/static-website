@@ -26,7 +26,7 @@ Ex: az group create - -name RG1 - -location centralindia <br>
 2.	Create the Azure container registry using the ARM template:<br>
  ARM template is a JSON file that defines the infrastructure and configuration for your Azure resources. It's a declarative way to specify what resources you want to deploy, rather than writing a series of commands to deploy them. <br>
 Here we used the ARM template to create the resource ACR (azure container registry).<br>
-![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/2.png)
+![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/2.png)<br><br>
 Deploy this ARM template in the resource group of RG1 by using the below command from .Json file path.<br>
 [az deployment group create - -resource-group RG1 - -template-file azure-container-registry.json] <br>
 ![image alt](https://github.com/sheriharish/static-website/blob/34a32462e936d0ecb9712eb3fde2a728027306a0/mdimages/3.png)
